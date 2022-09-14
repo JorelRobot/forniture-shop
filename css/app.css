@@ -1,0 +1,47 @@
+/* 
+    Los estandares mas comunes de escribir clases en CSS::after
+    * Modulos
+    * BEM
+    * SMACSS
+*/
+
+h1 {
+    color: #000;
+}
+
+h1 span {
+    color: #037bc0;
+}
+
+footer a {
+    text-transform: uppercase;
+}
+
+a {
+    text-transform: lowercase;
+}
+
+nav a {
+    text-transform: uppercase;
+}
+
+.navegation {
+    
+}
+
+.enlace {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    color: #037bc0;
+}
+
+/** Box Model **/
+
+.about-us {
+    background-color: #0a364f;
+    color: white;
+    width: 200px;
+    padding: 25px;
+    box-sizing: border-box;
+}
