@@ -5,43 +5,49 @@
     * SMACSS
 */
 
-h1 {
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+/* Globales */
+
+a {
+    text-decoration: none;
     color: #000;
 }
 
-h1 span {
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/** Header and navegation **/
+.site-name {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.site-name span {
     color: #037bc0;
 }
 
-footer a {
-    text-transform: uppercase;
+.container-navigation {
+    border-top: 1px solid #e1e1e1;
 }
 
-a {
-    text-transform: lowercase;
+.main-navigation {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-nav a {
-    text-transform: uppercase;
-}
-
-.navegation {
-    
-}
-
-.enlace {
-    text-transform: uppercase;
-    font-weight: bold;
-    text-decoration: none;
-    color: #037bc0;
-}
-
-/** Box Model **/
-
-.about-us {
-    background-color: #0a364f;
-    color: white;
-    width: 200px;
-    padding: 25px;
-    box-sizing: border-box;
-}
+.hero {
+    background-image: url(../img/principal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+}   
