@@ -9,7 +9,7 @@ html {
     box-sizing: border-box;
 }
 
-*, *::before, *::after {
+*, *::before, *::after { /* Pseudo-selectores*/
     box-sizing: inherit;
 }
 
@@ -23,6 +23,11 @@ a {
 .container {
     max-width: 1200px;
     margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    display: block;
 }
 
 /** Header and navegation **/
@@ -54,6 +59,29 @@ a {
 }
 
 /** Categories **/
+/*
+    fr es una unidad de medida que significa fraccion
+*/
+
+.categories h2 {
+    text-align: center;
+}
+
+.categorie a {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.categorie a:hover {
+    background-color: #037bc0;
+    color: #ffffff;
+    border-bottom-right-radius: 10px;
+}
+
 .categories-list {
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
