@@ -41,8 +41,9 @@ a {
 }
 
 .main-navigation {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 .hero {
