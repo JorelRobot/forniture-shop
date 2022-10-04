@@ -51,4 +51,9 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     height: 550px;
-}   
+}
+
+/** Categories **/
+.categories-list {
+    display: grid;
+}
