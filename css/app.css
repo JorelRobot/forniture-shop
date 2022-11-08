@@ -7,6 +7,8 @@
 
 html {
     box-sizing: border-box;
+    font-size: 62.5%; /* Cinvierte 1rem = 10px */
+    line-height: 2;
 }
 
 *, *::before, *::after { /* Pseudo-selectores*/
@@ -15,12 +17,26 @@ html {
 
 body {
     font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
 }
 
 /* Globales */
 
 h1, h2, h3 {
     font-family: 'Playfair Display', serif;
+    margin: 0 0 5rem 0;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 3rem;
 }
 
 a {
@@ -29,7 +45,7 @@ a {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 115rem;
     margin: 0 auto;
 }
 
@@ -40,8 +56,7 @@ img {
 
 /** Header and navegation **/
 .site-name {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 5rem;
     text-align: center;
 }
 
@@ -50,11 +65,11 @@ img {
 }
 
 .container-navigation {
-    border-top: 1px solid #e1e1e1;
+    border-top: .1rem solid #e1e1e1;
 }
 
 .main-navigation {
-    padding: 20px 0;
+    padding: 2rem 0;
     display: flex;
     justify-content: space-between;
 }
@@ -63,13 +78,18 @@ img {
     background-image: url(../img/principal.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 550px;
+    background-position: center center;
+    height: 55rem;
 }
 
 /** Categories **/
 /*
     fr es una unidad de medida que significa fraccion
 */
+
+.categories {
+    padding-top: 5rem;
+}
 
 .categories h2 {
     text-align: center;
@@ -78,18 +98,18 @@ img {
 .categorie a {
     display: block;
     text-align: center;
-    padding: 20px;
-    font-size: 20px;
+    padding: 2rem;
+    font-size: 2rem;
 }
 
 .categorie a:hover {
     background-color: #037bc0;
     color: #ffffff;
-    border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 1rem;
 }
 
 .categories-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 2rem;
 }
