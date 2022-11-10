@@ -270,7 +270,7 @@ img {
 .rights-footer {
     background-color: #33596e;
     margin-top: 3em;
-    padding: 1em 0;
+    padding: .5em 0;
     text-align: center;
     color: white;
 }
@@ -319,4 +319,26 @@ img {
 
 .meta-entry span {
     color: #037bc0;
+}
+
+.entry-content {
+    width: 60rem;
+    margin: 0 auto;
+}
+
+/** Gallery Page **/
+
+.gallery {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.gallery img {
+    height: 40rem;
+    width: 40rem;
+    object-fit: cover;
 }
