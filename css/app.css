@@ -138,7 +138,7 @@ img {
     background-position: left center;
     padding: 10rem 0;
     background-repeat: no-repeat;
-    background-size: 100%, 120rem;
+    background-size: 100%, 100%;
     margin-top: 5rem;
 }
 
@@ -243,3 +243,44 @@ img {
 }
 
 
+/** Footer **/
+
+.site-footer {
+    margin-top: 10rem;
+    border-top: .1rem solid #e1e1e1;
+}
+
+.grid-footer {
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+}
+
+.navigation-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.rights-footer {
+    background-color: #33596e;
+    margin-top: 3em;
+    padding: 1em 0;
+    text-align: center;
+    color: white;
+}
+
+/** About us page**/
+
+.about-us-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    column-gap: 4rem;
+}
+
+.our-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
