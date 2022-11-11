@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/normalizer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+    <title>Ecommerce - Contact us</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="site-name">Forniture <span>Shop<span></h1>
+    </header>
+
+    <div class="container-navigation">
+        <nav class="main-navigation container">
+            <a href="index.html">Home</a>
+            <a href="about-us.html">About us</a>
+            <a href="shop.html">Shop</a>
+            <a href="blog.html">Blog</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact-us.html">Contact us</a>
+        </nav>
+    </div>
+
+    <main class="main-content container">
+        <h2 class="text-center">Conatct us</h2>
+
+        <form class="form">
+            <fieldset>
+                <legend>Your information</legend>
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input id="name" type="text" placeholder="Your name here">
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject: </label>
+                    <input id="subject" type="text" placeholder="The subject here">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email: </label>
+                    <input id="email" type="email" placeholder="The email here">
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone: </label>
+                    <input id="phone" type="tel" placeholder="The numbre phone here">
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject: </label>
+                    <input id="subject" type="text" placeholder="The subject here">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message: </label>
+                    <textarea id="message" cols="30" rows="10"></textarea>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Your Location</legend>
+
+                <div class="form-group">
+                    <label for="country">Country: </label>
+                    <select id="country">
+                        <option value="">-- Choose an option --</option>
+                        <option value="MX">Mexico</option>
+                        <option value="PR">Peru</option>
+                        <option value="CO">Colombia</option>
+                        <option value="ES">España</option>
+                        <option value="CH">Chile</option>
+                        <option value="AG">Argentina</option>
+                    </select>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Extra information</legend>
+
+                <div class="form-group">
+                    <label for="client">Client: </label>
+                    <input id="client" type="radio" name="type" value="client">
+                </div>
+
+                <div class="form-group">
+                    <label for="provider">Provider: </label>
+                    <input id="provider" type="radio" name="type" value="provider">
+                </div>
+
+                <div class="form-group">
+                    <label for="categories">Category you are looking for: </label>
+                    <input list="categories" name="categories">
+                    <datalist id="categories">
+                        <option value="Kitchens">Kitchens</option>
+                        <option value="Exteriors">Exteriors</option>
+                        <option value="Bedrooms">Bedrooms</option>
+                        <option value="Offices">Offices</option>
+                        <option value="Livingrooms">Livingrooms</option>
+                    </datalist>
+                </div>
+            </fieldset>
+
+            <button class="btn" type="submit">Send information</button>
+        </form>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="grid-footer container">
+            <div>
+                <h3>Categories</h3>
+                <nav class="navegation navigation-footer">
+                    <a href="#">Kitchen</a>
+                    <a href="#">Office</a>
+                    <a href="#">Garden</a>
+                    <a href="#">Garage</a>
+                    <a href="#">Bedroom</a>
+                </nav>
+            </div>
+            <div>
+                <h3>About us</h3>
+                <nav class="navegation navigation-footer">
+                    <a href="#">Our Story</a>
+                    <a href="#">Mission, Vision and Values</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Privacy politics</a>
+                    <a href="#">Services Terms</a>
+                </nav>
+            </div>
+            <div>
+                <h3>Support</h3>
+                <nav class="navegation navigation-footer">
+                    <a href="#">Frequent Questions</a>
+                    <a href="#">Online Support</a>
+                    <a href="#">Trust and Security</a>
+                </nav>
+            </div>
+        </div>
+        <div class="rights-footer">
+            <p>All rights reserved, Forniture Shop</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
